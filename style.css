@@ -1,12 +1,10 @@
 #game{
     height: 570px;
-    /* width: 900px; */
     background-image: url('flappy-bg-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     border: 4px solid black;
-    /* margin-left: 13%; */
     margin-top: 2%;
     overflow: hidden;
     position: relative;
@@ -19,15 +17,16 @@ body{
     position: absolute;
     width: 50px;
     height: 50%;
-    background-image: url('https://toppng.com/uploads/preview/flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu.png');
+    background-image: url("pipe-img.jpg");
     transform: rotate(180deg);
 }
 #pipe2{
     position: absolute;
     width: 50px;
     height: 30%;
+    background-image: url("pipe-img.jpg");
+
     top: 80%;
-    background-image: url('https://toppng.com/uploads/preview/flappy-bird-pipe-png-steel-casing-pipe-11562902157uauyp2h0pu.png');
 }
 .obs{
     left: 95%;
