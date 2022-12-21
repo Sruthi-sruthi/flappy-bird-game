@@ -40,7 +40,6 @@ body{
     height: 40px;
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-position: 20px; */
     top: 150px;
     animation: cloudimg 4s ease-in-out infinite;
 }
@@ -79,7 +78,7 @@ body{
     position: absolute;
     top: 200px;
     left: 90px;
-    background: linear-gradient(#7CB9E8,#70a5cd);
+    /* background: linear-gradient(#7CB9E8,#70a5cd); */
 
 }
 #bird img{
